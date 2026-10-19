@@ -1,0 +1,22 @@
+[project]
+name = "stellenagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "glasswatersoda" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.11.17,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.7.0",
+    "pyright>=1.1.414",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
